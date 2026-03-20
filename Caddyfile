@@ -35,3 +35,9 @@
         reverse_proxy stopandgraph:80
     }
 }
+
+:85 {
+    handle /* {
+        reverse_proxy dictgraph:80
+    }
+}
